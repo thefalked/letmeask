@@ -10,6 +10,8 @@ A project using firebase for ranking questions in a room.
 
 1. Users can like other users questions so it goes up in the rank.
 
+The project style is in [here](https://www.figma.com/file/Vmnblz3jCz2YZ40lCMZzkJ/Letmeask?node-id=45%3A3278).
+
 ## Available Scripts
 
 In the project directory, you can run:
