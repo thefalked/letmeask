@@ -12,6 +12,19 @@
     color: #29292e;
   }
 
+  &.highlighted {
+    background-color: #f4f0ff;
+    border: 1px solid #835afd;
+
+    .footer .user-info span {
+      color: #29292e;
+    }
+  }
+
+  &.answered {
+    background-color: #dbdcdd;
+  }
+
   footer {
     display: flex;
     justify-content: space-between;
@@ -40,6 +53,10 @@
       background-color: transparent;
       cursor: pointer;
       transition: filter 0.2s;
+
+      & + button {
+        margin-left: 16px;
+      }
 
       &.like-button {
         display: flex;
