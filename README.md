@@ -1,41 +1,72 @@
-# Let Me Ask
+<p align="center">
+  <img alt="Letmeask" src=".github/logo.svg" width="160px">
+</p>
 
-A project using firebase for ranking questions in a room.
+<p align="center">
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-run">How to run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-license">License</a>
+</p>
 
-1. Users need to login with Google to create a room or like/send a question
+<p align="center">
+  <img src="https://img.shields.io/static/v1?label=NLW&message=06&color=8257E5&labelColor=000000" alt="NLW Together 06" />
 
-1. A user can create a room about a subject and others users can enter the room and ask questions about it.
+  <img  src="https://img.shields.io/static/v1?label=license&message=MIT&color=8257E5&labelColor=000000" alt="License">   
+</p>
 
-1. Users that are owners of the room can manage questions like: check has already answered, mark a question and delete a question.
+<h1 align="center">
+  <img alt="Letmeask" src=".github/cover.jpg" />
+</h1>
 
-1. Users can like other users questions so it goes up in the rank.
+<br>
 
-The project style is in [here](https://www.figma.com/file/Vmnblz3jCz2YZ40lCMZzkJ/Letmeask?node-id=45%3A3278).
+## 🧪 Technologies
 
-## Available Scripts
+This project was developed with the following technologies:
 
-In the project directory, you can run:
+- [React](https://reactjs.org)
+- [Firebase](https://firebase.google.com/)
+- [TypeScript](https://www.typescriptlang.org/)
 
-### `yarn start`
+## 💻 Project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Letmeask is perfect for content creators to create Q&A rooms with their audience in a very organized and democratic way.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+This is a project developed during the **[Next Level Week Together](https://nextlevelweek.com/)**, presented from the 20th to the 27th of June 2021.
 
-### `yarn build`
+## 🔖 Layout
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+You can view the project layout through the link below:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [Layout Web](https://www.figma.com/file/Vmnblz3jCz2YZ40lCMZzkJ/Letmeask?node-id=45%3A3278)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Remembering that you need to have an account on [Figma](http://figma.com/).
 
-## Learn More
+## 🚀 How to run
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Clone the project and access its folder.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+$ git clone https://github.com/thefalked/letmeask
+$ cd letmeask
+```
+
+To start it, follow the steps below:
+
+```bash
+# Install dependencies
+$ yarn
+
+# Start the project
+$ yarn start
+```
+
+The app will be available in your browser by address `http://localhost:3000`.
+
+Remembering that it will be necessary to create an account in [Firebase](https://firebase.google.com/) and a project to make a Realtime Database available.
+
+## 📝 License
+
+This project is under the MIT license. See the [LICENSE](LICENSE.md) file for more details.
