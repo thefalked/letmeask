@@ -32,7 +32,7 @@ This project was developed with the following technologies:
 
 ## 💻 Project
 
-Letmeask is perfect for content creators to create Q&A rooms with their audience in a very organized and democratic way.
+Letmeask is perfect for content creators to create Q&A rooms with their audience in a very organized and democratic way. Check the app deployed on Firebase host in [here](https://letmeask-753c5.web.app/).
 
 This is a project developed during the **[Next Level Week Together](https://nextlevelweek.com/)**, presented from the 20th to the 27th of June 2021.
 
